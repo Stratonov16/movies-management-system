@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+input {
+  width: 5%;
+}
+.center {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+
+body {
+  background-color: #d5ec2bba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  background:url('https://cdn.glitch.global/8f40dca9-8e42-4b20-be70-20e9c361b240/body-bg.gif?v=1649690278269');
+
+}
+.table-wrapper {
+ 
+  margin:auto;
+  background: #fff;
+  padding: 20px;	
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  min-width: 300px;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cont .btn-holder {
+  justify-content:center;
+  display: flex;
+}
+button#two span {
+   padding-left: 10px;
+  
+}
+button#two i {
+
+   -webkit-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+   -ms-transition: all .5s ease;
+   transition: all .5s ease;
+  
+}
+/* button#continue:hover i {
+   padding-left: 10px;
+   opacity: 0;
+} */
+
+.table-title {
+  padding-bottom: 10px;
+  margin: 0 0 10px;
+}
+.table-title h2 {
+  margin: 6px 0 0;
+  font-size: 22px;
+}
+.table-title .add-new {
+  float: right;
+  height: 30px;
+  font-weight: bold;
+  font-size: 12px;
+  text-shadow: none;
+  min-width: 100px;
+  border-radius: 50px;
+  line-height: 13px;
+}
+.table-title .add-new i {
+  margin-right: 4px;
+}
+table.table {
+  table-layout: fixed;
+
+}
+table.table tr th{
+  border-color: #e9e9e9;
+  min-width:20px;
+  text-align:center;
+}
+table.table tr td {
+  border-color: #e9e9e9;
+  min-width:10px;
+}
+/* #plot {
+  width: 250px;
+}
+#title {
+  width: 200px;
+} 
+*/
+/* #id, #rating, #popularity {
+  width:100px;
+}
+ #language {
+  width: 125px;
+}
+*/
+#addition {
+  width: 100px;
+}
+  
+
+
+table.table td a {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+/*   min-width: 100px; */
+}    
+table.table td a.add {
+  color: #27C46B;
+}
+table.table td a.edit {
+  color: #FFC107;
+}
+table.table td a.delete {
+  color: #E34724;
+}
+table.table td i {
+  font-size: 19px;
+}
+table.table td a.add i {
+  font-size: 24px;
+  margin-right: -1px;
+  position: relative;
+  top: 3px;
+}    
+table.table .form-control {
+  height: 32px;
+  line-height: 32px;
+  box-shadow: none;
+  border-radius: 2px;
+}
+table.table .form-control.error {
+  border-color: #f50000;
+}
+table.table td .add {
+  display: none;
+}
+
+
