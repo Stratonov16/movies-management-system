@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="staff.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	
+	<title>
+		Add staff
+	</title>
+
+
+</head>
+
+<body>
+	<!-- title, language, plot, popularity, date, rating -->
+	<!-- Create Form -->
+	<form id="form">
+	<h2>Enter Staff Details</h2>
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="name">
+				Staff Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="firstName"
+				placeholder="First Name" required /> <br>
+        <input type="text"
+				id="lastName"
+				placeholder="Last Name" required />
+		</div>
+    <div class="date-input form-control">
+			<label for="date" >
+				Date of birth
+			</label>
+			<input type="text" id="date" placeholder="Date" class="date-input form-control" required />
+			<input type="text" id="month" placeholder="Month" class="date-input form-control" required /> 
+			<input type="text" id="year"  placeholder="Year" class="date-input form-control"  required /> 
+        </div>
+		
+
+		<div class="form-control">
+			<label>Staff Type
+				<small></small>
+			</label>
+			<br>
+			<div id="options">
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp" id="actor">Actress / Actor</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp" id="director">Director</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp" id="writer">Writer</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp" id="editor">Editor</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp" id="costume">Costume Designer</input></label>
+      <label for="inp-6">
+        <input type="checkbox"
+          name="inp" id="music">Music Supervisor</input></label>
+      <label for="inp-7">
+          <input type="checkbox"
+          name="inp" id="other">Other Supporting crew</input></label>
+			</div>	
+		</div>
+
+		<div class="form-control">
+			<label for="role">
+				Role
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Hero / Villian / Supporting role, Father of Hero / Casting Director etc " required ></textarea>
+		</div>
+	
+
+
+		<!-- Multi-line Text Input Control -->
+		<button type="button" id="add_db" class="add-btn">
+			<i class="fa fa-arrow-right"></i> Add Another staff
+		</button>
+  </form>
+  <br>
+    <button type="button" id="submit" class="end-btn">
+			<i class="fa fa-arrow-right"></i> Submit
+		</button>
+</body>
+<script src="staff.js"></script>
+
+</html>

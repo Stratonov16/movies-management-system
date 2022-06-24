@@ -1,0 +1,89 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: url("https://cdn.glitch.global/8f40dca9-8e42-4b20-be70-20e9c361b240/alIPFZ3.jpg?v=1650036781565");
+  text-align: center;
+  background-attachment: fixed;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+}
+h2 {
+  text-align: left;
+}
+.bg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  filter: blur(5px) brightness(50%);
+}
+b {
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-column {
+  flex: 10%;
+  padding-top: 4%;
+  padding-left: 2%;
+}
+
+.right-column {
+  flex: 60%;
+  padding-top: 4%;
+  padding-right: 16%;
+}
+
+.movie-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 450px;
+  width: 290px;
+  border-radius: 4px;
+}
+
+.movie-text {
+  text-align: left;
+  margin-left: 0.3em;
+  color: white;
+}
+
+.card {
+  background-color: #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  padding-bottom: 2em;
+}
+
+#rating,
+#date {
+  display: inline;
+}
+
+.desc {
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}

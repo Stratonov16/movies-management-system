@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+/* Styling the Body element i.e. Color,
+Font, Alignment */
+body {
+  background-color: #d5ec2bba;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background: url("https://cdn.glitch.global/8f40dca9-8e42-4b20-be70-20e9c361b240/alIPFZ3.jpg?v=1650036781565");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+h3 {
+  font-family: reset;
+  width: 30%;
+}
+.content {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: rgb(240, 12, 12);
+  border-radius: 5px;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: rgb(208, 9, 9);
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 1000px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

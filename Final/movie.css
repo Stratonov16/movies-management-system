@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+/* Styling the Body element i.e. Color,
+Font, Alignment */
+body {
+  background-color: #d5ec2bba;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background: url("https://cdn.glitch.global/8f40dca9-8e42-4b20-be70-20e9c361b240/alIPFZ3.jpg?v=1650036781565");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+form {
+  background-color: black;
+  max-width: 1000px;
+  margin: auto;
+  overflow-y: auto;
+  height: 500px;
+
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  /*   font-weight: bold; */
+  font-size: 18px;
+}
+
+/* Styling form-control Class */
+.form-control {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+#options {
+  margin-left: 7%;
+}
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+}
+
+/* Styling form-control Radio
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+.end-btn {
+  background-color: #21da24;
+  border: none;
+  width: 15vw;
+  height: 3vw;
+  font-size: 1.5vw;
+  color: #ffffff;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Styling Button */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="admin-dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body
+    style="
+      background-image: url(https://cdn.glitch.global/8f40dca9-8e42-4b20-be70-20e9c361b240/alIPFZ3.jpg?v=1650036781565);">
+
+	<div class="center">
+		<br>
+		<br>
+		<br>
+      <a class="gradient-button gradient-button-1" id="add_movie">Add Movie</a><br />
+      <a class="gradient-button gradient-button-2" id="delete_movie">Delete Movie</a><br />
+      <!-- <a class="gradient-button gradient-button-3" id="manage_users">Manage Users</a><br /> -->
+	</div>
+
+  </body>
+  <script>
+    document.getElementById("add_movie").onclick=function(){
+      window.location="movie.html"
+    }
+    document.getElementById("delete_movie").onclick=function(){
+      window.location="delete.html"
+    }
+    document.getElementById("manage_users").onclick=function(){
+      window.location="manage_users.html"
+    }
+  </script>
+</html>

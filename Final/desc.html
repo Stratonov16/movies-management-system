@@ -1,0 +1,91 @@
+<html lang-en>
+<head>
+<title>Movie movie-description</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="desc.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
+<link rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class = "bg">
+
+    </div>
+<!-- Left Column Info -->
+<div class="row">
+  <div class="left-column">
+    <div class="card">
+     <div class="movie-image" id="image_movie">
+    </div>
+    <h2 class="movie-text"><div id="name">Movie name</div> </h2>
+     <div class="info-panel" style="font-size: 16px;">
+        <h3 class="movie-text">Rating: <div id="rating">10</div></h3> 
+        <h3 class="movie-text">Release date: <div id="date"></div></h3> 
+     </div>
+    </div> 
+  </div>
+
+<!-- Right Column Info -->
+  <div class="right-column">
+    <div class="card">
+     <div class="exper-panel">
+
+        <!-- Description -->
+      <h2> Movie Description: </h2>
+
+      <div class ="desc"id="movie_desc">
+         <span >
+         </span> 
+        </div>
+
+
+      <br>
+      <h2>Genre: </h2>
+      <!-- Genre responses got from db put here -->
+      <div id="genre">
+      Comedy, documentry
+    </div>
+      <br>
+        <br>
+      <!-- Cast -->
+      <h2>Movie cast: </h2>
+      <table>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Type </th>
+        <th>role</th>
+        </tr>
+        <tr>
+          <td id="f1"></td>
+          <td id="l1"></td>
+           <td id="t1">Actor</td>
+          <td id="r1">Father of main actress, positive role</td>
+        </tr>
+        <tr>
+          <td id="f2"></td>
+          <td id="l2"></td>
+          <td id="t2">Director</td>
+          <td id="r2">Director of the movie</td>
+        </tr>
+        
+      </table>
+      <!--  producer -->
+        <br>
+        <h2>Producer: </h2>
+       Amir khan productions
+<!--       all producer details here -->
+      <br>
+      
+    </div>
+    </div> 
+  </div>
+</div>
+<!-- <button type="button" id="back"> Back</button> -->
+</body>
+<script src="decs.js"></script>
+</html>
