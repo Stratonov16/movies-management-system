@@ -3,16 +3,23 @@ A comprehensive and well-organized database of movies where users can check the 
 
 # Files
 On the front-end,
+login.html to login for user and admin. <br>
+admin-dashboard.html for admin.<br>
+movie.html for adding new movie.<br>
+staff.html to manage database of movie cast.<br>
+producer.html add producer details.<br>
+delte.html to delete a particular movie.<br>
 
-public/admin/movie.html for admin functionality to add movie
-public/admin/staff.html to manage database of movie cast.
-public/admin/role.html to manage which cast has which role
-home/ for user frontend
+for user:
+movie.html to see all the movie cards.<br>
+desc.html for description of each movie.<br>
+
 
 On the back-end,
 
 A Node.js/Express server that serves a webpage and its resources
-your app starts at server.js
-add frameworks and packages in package.json
-Mysql server for database hosting.
+app starts at index.js.<br>
+individual js files for Sql queries.<br>
+frameworks and packages: expressJs and others in pakage-lock.json <br>
+Mysql server for database hosting.<br>
 
