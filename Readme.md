@@ -6,7 +6,7 @@ A comprehensive and well-organized database of movies where users can check the 
 # Files
 ### On the front-end,
 Login.html to login for user and admin. <br>
-For userL <br>
+For Admin <br>
 admin-dashboard.html for admin.<br>
 movie.html for adding new movie.<br>
 staff.html to manage database of movie cast.<br>
